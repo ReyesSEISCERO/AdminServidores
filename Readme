@@ -1,0 +1,56 @@
+
+Este script de bash proporciona varias funciones para gestionar las interfaces de red y las conexiones inalámbricas en un sistema Linux. A continuación se detallan las funciones que incluye y cómo utilizarlas.
+
+Funciones
+
+mostrar_interfaces
+
+Descripción: Muestra las interfaces de red disponibles y su estado.
+
+Uso: Llama a esta función para ver todas las interfaces de red y su estado actual (activada o desactivada).
+
+cambiar_estado_interfaz
+
+Descripción: Cambia el estado de una interfaz de red (activar o desactivar).
+
+Uso:
+
+Solicita al usuario el nombre de la interfaz y si desea activarla (up) o desactivarla (down).
+
+Cambia el estado de la interfaz según la acción indicada.
+
+configurar_interfaz
+
+Descripción: Configura una interfaz de red de manera estática o dinámica.
+
+Uso:
+
+Solicita al usuario el nombre de la interfaz y el tipo de configuración (estatica o dinamica).
+
+Para configuración estática, solicita la dirección IP, máscara de subred y puerta de enlace.
+
+Aplica la configuración estática o solicita una configuración dinámica a través de DHCP.
+
+conectar_red_inalambrica
+
+Descripción: Muestra las redes inalámbricas disponibles y permite conectarse a una de ellas.
+
+Uso:
+
+Solicita al usuario el nombre de la interfaz inalámbrica.
+
+Escanea y muestra las redes disponibles.
+
+Solicita al usuario el SSID de la red y la contraseña (si aplica).
+
+Configura y conecta a la red especificada.
+
+menu_principal
+
+Descripción: Muestra un menú principal para seleccionar las diferentes funciones del script.
+
+Uso:
+
+Permite al usuario seleccionar entre mostrar interfaces, cambiar su estado, configurarlas o conectarse a una red inalámbrica.
+
+Proporciona una opción para salir del script.
