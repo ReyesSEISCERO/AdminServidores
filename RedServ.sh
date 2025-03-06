@@ -64,7 +64,7 @@ menu_principal() {
         echo "3. Configurar una interfaz (estática o dinámica)"
         echo "4. Conectar a una red inalámbrica"
         echo "5. Salir"
-        read -p "Seleccione una opción (1-5): " opcion
+        read -p "Selecciona una opción (1-5): " opcion
 
         case $opcion in
             1) mostrar_interfaces ;;
